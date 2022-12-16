@@ -54,9 +54,9 @@ if user_menu1 == 'Insurance Claim likelihood':
         p = 0
     if chil == "no":
         p = 0
-    s = st.slider("How DUI's have you have?", 1,1,3)
-    r = st.slider("How many speeding tickets have you have?", 1,1,10)
-    t = st.slider("How many accidents have you been in?", 1,1,10)
+    s = st.slider("How DUI's have you have?", 1,0,3)
+    r = st.slider("How many speeding tickets have you have?", 1,0,10)
+    t = st.slider("How many accidents have you been in?", 1,0,10)
     
     d = {'Old':[a], 'Very Old':[b], 'Young':[c], 'male':[d], 'Amateur':[e], 'Expert':[f], 'Newbie':[g],
          'none':[h], 'university':[i], 'poverty':[j], 'upper class':[k], 'working class':[l],
