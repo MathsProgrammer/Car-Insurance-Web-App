@@ -67,7 +67,7 @@ if user_menu1 == 'Insurance Claim likelihood':
     df = pd.DataFrame(data=d)
     k = model.predict_proba(df)
     st.subheader("The probability that a claim will be made is:")
-    st.success(k[0][1])
+    st.success(k[0][0])
 
 
         
